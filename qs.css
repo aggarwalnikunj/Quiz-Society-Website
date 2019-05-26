@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*html
+{
+	background-image:url(GB-wp1.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}*/
+
+
+#container
+{	
+	width:90%;
+	height:auto;
+	margin-left:80px;	
+}
+
+
+#header
+{
+	text-align:left;
+	height:100px;
+	text-shadow: 2px 2px 2px #FF0000;
+}
+
+img.left
+{
+	width:100px;
+	height:94px;
+	float:left;
+	border:ridge;
+	border-color:"green";
+}
+
+
+img.right
+{
+	width:100px;
+	height:94px;
+	float:right;
+	border:ridge;
+	border-color:"green";
+}
+
+
+p.tab
+{
+	background:url(background%20tab.jpg);
+	font-size:14px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#FF6;
+	height:20px;
+	width:100px;
+}
+
+p.news
+{
+	background:url(background%20tab.jpg);
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#03C;
+	height:40px;
+	width:220px;
+}
+
+
+#menu
+{
+	border-left:double;
+	border-right:double;
+	text-align:center;
+	background-color:transparent;
+	height:520px;
+	width:100px;
+	float:left;
+}
+
+
+#content
+{
+	background-color:transparent;
+	height:450px;
+	width:70%;
+	float:left;
+}
+
+
+#news
+{
+	background-color:#9C3;
+	height:520px;
+	width:252px;
+	float:right;
+	onMouseOver="document.getElementById('scroll_news').stop();";
+	onMouseOut="document.getElementById('scroll_news').start();";
+}
+
+
+a:link {color: red; text-decoration: none; }
+a:visited {color: purple; text-decoration: none; }
+a:hover {color: orange; text-decoration: underline; background-color:#6FF; }
+a:active {color: blue; }
+
+
+#footer
+{
+	background-color:#FFA500;
+	clear:both;
+	text-align:center;
+}
